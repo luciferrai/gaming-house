@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Charicha Esports </title>
+    <style>  
+/*change the link color in hover */
+li a:hover {
+    background-color: #555;
+    color:white;
+}
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+  float: right;
+  margin: 5px;
+}
+li:last-child {
+  border-bottom: none;
+}
+    
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+    li a:hover:not(.active) { 
+
+  background-color:green;
+  color: white;
+}
+        .li a {
+  display: block;
+  width: 60px;
+  background-color: #912424;
+  padding:8px 16px;
+  text-decoration: none;
+  margin: 60px;
+}
+        ul {
+        top:0%;
+        display :inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: rgb(255, 10, 10);
+        border:1px solid rgb(255, 255, 255)
+}
+        .header {
+            color: rgb(255, 255, 255);
+        }
+
+        .showvideos { 
+            position: absolute;
+            top: 80px;
+            left: 0px;
+            z-index: -10;
+        }
+
+        .intro_video { 
+            width: 100vw;
+        }    
+
+        .heading1 { 
+            display: flex;
+            justify-content: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+        }
+        .bhavesh {
+            width :100px;
+        }
+        .charicha {
+            width: 40px;
+            height: 60px;
+            top: 0%;
+            display: flex;
+        }
+    </style>
+</head> 
+<body>
+    <div class="charicha">
+    <img src="images/charicha.png" width="300px" height="200px" >
+    <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#news">news</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#about">about</a></li>
+      </ul>
+    </div>
+    <div class="showvideos">
+        <video src="videos/pop.mp4" muted loop autoplay class="intro_video"></video>
+    </div>  
+
+    <div class="header">
+        <h1 class="heading1"> Charicha Esports </h1>       
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis autem ducimus ea et cum   iste beatae optio doloribus cupiditate impedit in quidem, a ex, facere facilis, reiciendis iure tempore non vero. Quisquam eveniet, impedit cum labore aliquid modi dicta enim. Voluptatum, explicabo commodi architecto sit ipsa consequatur maxime! Laboriosam, architecto.</p>
+        <P>last gu player</P>
+        <div class="bhavesh">
+        <a href="images/player1.jpg"> <h1>bhavesh</h1></a>
+
+</body>
+</html>
